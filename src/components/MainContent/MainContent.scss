@@ -1,0 +1,155 @@
+@import '../../styles/fonts';
+@import '../../styles/vars';
+
+.main-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  font-family: "Grtsk Giga";
+
+  &__wrapper {
+    padding: 0 21px;
+    height: 100%;
+    
+    @media (min-width: 768px) {
+      padding: 0 100px;
+    }
+
+    @media (min-width: 1024px) {
+      padding: 0 150px;
+    }
+
+    @media (min-width: 1440px) {
+      padding: 0 208px;
+    }
+  }
+
+  &__decoration {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 294px;
+    height: 294px;
+
+    @media (min-width: 768px) {
+      width: 482px;
+      height: 482px;
+    }
+
+    @media (min-width: 1440px) {
+      width: 578px;
+      height: 578px;
+    }
+  }
+
+  &__circle {
+    height: 100%;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(closest-side,#ffcb46,#ffcb46 75%,transparent 100%);
+    }
+  }
+
+  &__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+    min-width: 333px;
+
+    font-size: 34px;
+    line-height: 110%;
+
+    color: $text-color;
+    text-align: center;
+    text-transform: uppercase;
+
+    @media (min-width: 768px) {
+      font-size: 58px;
+      width: 568px;
+    }
+
+    @media (min-width: 1024px) {
+      width: 724px;
+    }
+
+    @media (min-width: 1440px) {
+      font-size: 82px;
+      width: 1023px;
+    }
+  }
+
+  &__showreel {
+    position: absolute;
+    bottom: -21px;
+    right: 32px;
+
+    width: 88px;
+    height: 88px;
+
+    cursor: pointer;
+
+    &:hover {
+      animation: rotate 2s linear infinite;
+    }
+
+    @media (min-width: 768px) {
+      bottom: -2px;
+      right: 38px;
+
+      width: 112px;
+      height: 112px;
+    }
+
+    @media (min-width: 1024px) {
+      bottom: 17px;
+      right: 22px;
+    }
+
+    @media (min-width: 1440px) {
+      bottom: 23px;
+      right: 23px;
+
+      width: 118px;
+      height: 118px;
+    }
+
+    &-image {
+      width: 100%;
+      height: 100%;
+    }
+
+    &-dot {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      width: 6px;
+      height: 6px;
+    }
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
