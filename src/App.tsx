@@ -22,15 +22,15 @@ const App: React.FC = () => {
         <main>
           <Routes>
             <Route 
-              path="/" 
+              path="/the-first-the-last_test-task" 
               element={<MainContent />} 
             />
             <Route 
-              path="menu" 
+              path="/the-first-the-last_test-task/menu" 
               element={<Menu />}
             />
             <Route 
-              path="additionalpage" 
+              path="/the-first-the-last_test-task/additionalpage" 
               element={<AdditionalPage />}
             />
           </Routes>

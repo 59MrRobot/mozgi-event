@@ -15,7 +15,7 @@ export const Links: React.FC = () => {
       <ul className="links__list">
         <li className="links__item">
           <Link 
-            to="additionalpage"
+            to="/the-first-the-last_test-task/additionalpage"
             className="links__link" 
           >
             where?
@@ -23,7 +23,7 @@ export const Links: React.FC = () => {
         </li>
         <li className="links__item">
           <Link 
-            to="additionalpage"
+            to="/the-first-the-last_test-task/additionalpage"
             className="links__link"
           >
             who?
@@ -31,7 +31,7 @@ export const Links: React.FC = () => {
         </li>
         <li className="links__item">
           <Link 
-            to="additionalpage"
+            to="/the-first-the-last_test-task/additionalpage"
             className="links__link"
           >
             what?
