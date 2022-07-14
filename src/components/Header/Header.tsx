@@ -22,7 +22,7 @@ export const Header: React.FC = () => {
             />
           </div>
 
-          <Link to="/the-first-the-last_test-task">
+          <Link to="/">
             <img 
               src={logo} 
               alt="logo" 
@@ -34,7 +34,7 @@ export const Header: React.FC = () => {
             {isMenuShown
               ? (
                 <Link
-                  to="/the-first-the-last_test-task"
+                  to="/"
                   onClick={() => setIsMenuShown(false)}
                 >
                   X
@@ -42,7 +42,7 @@ export const Header: React.FC = () => {
               )
               : (
                 <Link
-                  to="/the-first-the-last_test-task/menu"
+                  to="menu"
                   className="header__menu-link"
                   onClick={() => setIsMenuShown(true)}
                 >

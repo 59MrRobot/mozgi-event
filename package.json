@@ -1,6 +1,6 @@
 {
-  "name": "the-first-the-last_test-task",
-  "homepage": "https://59MrRobot.github.io/the-first-the-last_test-task",
+  "name": "mongi-events",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

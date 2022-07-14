@@ -19,22 +19,20 @@ const App: React.FC = () => {
       <div className="App">
         <Header />
 
-        <main>
-          <Routes>
-            <Route 
-              path="/the-first-the-last_test-task" 
-              element={<MainContent />} 
-            />
-            <Route 
-              path="/the-first-the-last_test-task/menu" 
-              element={<Menu />}
-            />
-            <Route 
-              path="/the-first-the-last_test-task/additionalpage" 
-              element={<AdditionalPage />}
-            />
-          </Routes>
-        </main>
+        <Routes>
+          <Route 
+            path="/" 
+            element={<MainContent />} 
+          />
+          <Route 
+            path="menu" 
+            element={<Menu />}
+          />
+          <Route 
+            path="additionalpage" 
+            element={<AdditionalPage />}
+          />
+        </Routes>
       </div>
     </MenuContext.Provider>
   );
