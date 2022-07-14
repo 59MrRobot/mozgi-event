@@ -1,6 +1,6 @@
 {
   "name": "mongi-events",
-  "homepage": "https://59MrRobot.github.io/mongi-events",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

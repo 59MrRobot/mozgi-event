@@ -5,7 +5,7 @@ import dot from '../../images/dot.svg';
 
 export const MainContent: React.FC = () => {
   return (
-    <div className="main-content">
+    <div className="main-content" data-barba-namespace="home">
       <div className="main-content">
 
         <div className="main-content__decoration">

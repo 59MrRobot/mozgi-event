@@ -6,7 +6,7 @@ import { Header } from './components/Header';
 import { MainContent } from './components/MainContent';
 import { Menu } from './components/Menu';
 import { MenuContext } from './components/MenuContext';
-// import barba from '@barba/core';
+import barba from '@barba/core';
 
 const App: React.FC = () => {
   const [isMenuShown, setIsMenuShown] = useState(false);
@@ -16,20 +16,20 @@ const App: React.FC = () => {
       isMenuShown,
       setIsMenuShown,
     }}>
-      <div className="App">
+      <div className="App" data-barba="wrapper">
         <Header />
 
         <Routes>
           <Route 
-            path="/mongi-events" 
-            element={<MainContent />} 
+            path="/" 
+            element={<MainContent />}
           />
           <Route 
-            path="/menu" 
+            path="menu" 
             element={<Menu />}
           />
           <Route 
-            path="/additionalpage" 
+            path="additionalpage" 
             element={<AdditionalPage />}
           />
         </Routes>

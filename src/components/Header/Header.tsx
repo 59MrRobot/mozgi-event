@@ -35,6 +35,7 @@ export const Header: React.FC = () => {
               ? (
                 <NavLink
                   to="/"
+                  className="header__menu-link"
                   onClick={() => setIsMenuShown(false)}
                 >
                   X
