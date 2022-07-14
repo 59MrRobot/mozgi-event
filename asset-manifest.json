@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/the-first-the-last_test-task/static/css/main.cec1322d.css",
-    "main.js": "/the-first-the-last_test-task/static/js/main.0259958f.js",
-    "static/media/GrtskGiga-Bold.ttf": "/the-first-the-last_test-task/static/media/GrtskGiga-Bold.d2220bc69306b8646559.ttf",
-    "static/media/showreel.svg": "/the-first-the-last_test-task/static/media/showreel.7201f19c900724a70102064aa5edd321.svg",
-    "static/media/logo.svg": "/the-first-the-last_test-task/static/media/logo.68e8a5524892a82000f193931d09ee64.svg",
-    "index.html": "/the-first-the-last_test-task/index.html",
-    "static/media/menu.svg": "/the-first-the-last_test-task/static/media/menu.7fd51fb5cec3fe1a3ff227932398982e.svg",
-    "static/media/dot.svg": "/the-first-the-last_test-task/static/media/dot.320fb0ce36eb60c07e3a09b705be8a9f.svg",
-    "main.cec1322d.css.map": "/the-first-the-last_test-task/static/css/main.cec1322d.css.map",
-    "main.0259958f.js.map": "/the-first-the-last_test-task/static/js/main.0259958f.js.map"
+    "main.css": "/mongi-events/static/css/main.60556e5c.css",
+    "main.js": "/mongi-events/static/js/main.e592cf37.js",
+    "static/media/GrtskGiga-Bold.ttf": "/mongi-events/static/media/GrtskGiga-Bold.d2220bc69306b8646559.ttf",
+    "static/media/showreel.svg": "/mongi-events/static/media/showreel.7201f19c900724a70102064aa5edd321.svg",
+    "static/media/logo.svg": "/mongi-events/static/media/logo.68e8a5524892a82000f193931d09ee64.svg",
+    "index.html": "/mongi-events/index.html",
+    "static/media/menu.svg": "/mongi-events/static/media/menu.7fd51fb5cec3fe1a3ff227932398982e.svg",
+    "static/media/dot.svg": "/mongi-events/static/media/dot.320fb0ce36eb60c07e3a09b705be8a9f.svg",
+    "main.60556e5c.css.map": "/mongi-events/static/css/main.60556e5c.css.map",
+    "main.e592cf37.js.map": "/mongi-events/static/js/main.e592cf37.js.map"
   },
   "entrypoints": [
-    "static/css/main.cec1322d.css",
-    "static/js/main.0259958f.js"
+    "static/css/main.60556e5c.css",
+    "static/js/main.e592cf37.js"
   ]
 }
