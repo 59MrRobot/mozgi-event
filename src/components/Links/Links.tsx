@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { MenuContext } from '../MenuContext';
 import './Links.scss';
 import cn from 'classnames';
@@ -14,28 +14,28 @@ export const Links: React.FC = () => {
     )}>
       <ul className="links__list">
         <li className="links__item">
-          <Link 
-            to="additionalpage"
+          <NavLink 
+            to="/additionalpage"
             className="links__link" 
           >
             where?
-          </Link>
+          </NavLink>
         </li>
         <li className="links__item">
-          <Link 
-            to="additionalpage"
+          <NavLink 
+            to="/additionalpage"
             className="links__link"
           >
             who?
-          </Link>
+          </NavLink>
         </li>
         <li className="links__item">
-          <Link 
-            to="additionalpage"
+          <NavLink 
+            to="/additionalpage"
             className="links__link"
           >
             what?
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>

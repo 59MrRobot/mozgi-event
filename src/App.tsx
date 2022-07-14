@@ -21,15 +21,15 @@ const App: React.FC = () => {
 
         <Routes>
           <Route 
-            path="/" 
+            path="/mongi-events" 
             element={<MainContent />} 
           />
           <Route 
-            path="menu" 
+            path="/menu" 
             element={<Menu />}
           />
           <Route 
-            path="additionalpage" 
+            path="/additionalpage" 
             element={<AdditionalPage />}
           />
         </Routes>

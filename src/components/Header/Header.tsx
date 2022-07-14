@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { MenuContext } from '../MenuContext';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Header.scss';
 import { Links } from '../Links';
 import lang from '../../images/tongue.png';
@@ -22,32 +22,32 @@ export const Header: React.FC = () => {
             />
           </div>
 
-          <Link to="/">
+          <NavLink to="/">
             <img 
               src={logo} 
               alt="logo" 
               className="header__logo"
             />
-          </Link>
+          </NavLink>
 
           <div className="header__menu">
             {isMenuShown
               ? (
-                <Link
+                <NavLink
                   to="/"
                   onClick={() => setIsMenuShown(false)}
                 >
                   X
-                </Link>
+                </NavLink>
               )
               : (
-                <Link
+                <NavLink
                   to="menu"
                   className="header__menu-link"
                   onClick={() => setIsMenuShown(true)}
                 >
                   <img src={menu} alt="menu button" />
-                </Link>
+                </NavLink>
             )}
           </div>
         </div>
