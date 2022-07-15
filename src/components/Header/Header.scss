@@ -8,7 +8,6 @@
   height: 100%;
   width: 100%;
   padding: 20px 0 0;
-  // z-index: 2;
 
   @media (min-width: 768px) {
     padding: 16px 0 0;
@@ -69,14 +68,16 @@
   }
 
   &__menu {
-    font-family: "Grtsk Giga";
-    text-decoration: none;
-
     @media (min-width: 768px) {
       visibility: hidden;
     }
 
-    &-link {
+    &-button {
+      border: none;
+      background-color: transparent;
+
+      font-family: "Grtsk Giga";
+      font-size: 16px;
       color: $text-color;
       text-decoration: none;
     }

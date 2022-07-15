@@ -33,22 +33,22 @@ export const Header: React.FC = () => {
           <div className="header__menu">
             {isMenuShown
               ? (
-                <NavLink
-                  to="/"
-                  className="header__menu-link"
+                <button
+                  type="button"
+                  className="header__menu-button"
                   onClick={() => setIsMenuShown(false)}
                 >
                   X
-                </NavLink>
+                </button>
               )
               : (
-                <NavLink
-                  to="menu"
-                  className="header__menu-link"
+                <button
+                  type="button"
+                  className="header__menu-button"
                   onClick={() => setIsMenuShown(true)}
                 >
                   <img src={menu} alt="menu button" />
-                </NavLink>
+                </button>
             )}
           </div>
         </div>
